@@ -1,0 +1,35 @@
+1. strlen( )
+
+Function: This function returns total number of characters in a given string.
+Syntax: strlen(string);
+
+
+2. strrev( )
+
+Function: This function returns reverse of given string i.e. if we enter ‘ball’ it will return ‘llab’
+Syntax: strrev(string);
+
+3. strlwr( )
+
+Function: This function returns given string in lower case i.e. small letters.
+Syntax: strlwr(string);
+
+4. strupr( )
+
+Function: This function returns given string in upper case i.e. capital letters.
+Syntax: strupr(string);
+
+5. strcpy( )
+
+Function: This function copies one string to another i.e. source_string to destination_string
+Syntax: strcpy(destination_string,source_string);
+
+6. strcat( )
+
+Function: This function adds two strings into one.The process of adding strings is known as string concatenation.
+Syntax: strcat(string1,string2);
+
+7. strcmp( )
+
+Function: This function compare two strings and return 0 if both string are equal else return -1/1 if not equal.
+Syntax: strcmp(string1,string2);

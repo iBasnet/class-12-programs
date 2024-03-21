@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <form>
+        <input type="text" id="u_name">
+        <input type="email" id="u_email">
+        <input type="password" id="u_pw">
+        <input type="button" value="VALIDATE" id="btn" onclick="validate()">
+    </form>
+    </main>
+    <script>
+        var username = document.getElementById("u_name").value;
+        var email = document.getElementById("u_email").value;
+        var password = document.getElementById("u_pw").value;
+
+        function validate() {
+
+            if (username == "" || username == null) {
+                alert("Username can't be blank.")
+            }
+
+            if (email.includes("@")) { }
+
+            else {
+                alert('Email must contain "@".')
+            }
+
+            if (password.length < 7) {
+                alert("Password is too short. Min [7]")
+            }
+        }
+    </script>
+</body>
+
+</html>
